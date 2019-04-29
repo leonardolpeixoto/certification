@@ -1,4 +1,4 @@
-# PHP Basiscs
+# PHP Basics
 
 ## Basic Language Features
 All statements in PHP must be terminated with a semicolon. An exception to this is if the statement happens to be the last statement before a closing tag.  
@@ -31,6 +31,7 @@ Theses newline characters are sent as output by the PHP interpreter and could in
 
 
 | Used | For |
+|  --- | --- |
 | assert | Debug command to test a condition and do something if it is not true |
 | echo | Outputting a value to stdout |
 | print | Outputting a value to stdout |
