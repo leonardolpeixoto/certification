@@ -16,6 +16,7 @@ There are several ways to delimit PHP script, but only the first two in this tab
 
 
 | Type     | Open                    | Close     | Note       |
+|   ---    |           ---           |    ---    |    ---     |
 | Standard | <?php                   | ?>        |            |
 | Echo     | <?=                     | ?>        |            |
 | Short    | <?                      | ?>        | Deprecated |
