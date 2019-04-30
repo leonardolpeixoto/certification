@@ -27,8 +27,6 @@ It is quite common in PHP programs to omit the closing tag in a file. This is a 
 Theses newline characters are sent as output by the PHP interpreter and could interfere with the HTTP headers or cause other unintended side-effects.  
 
 ## Language Constructs
-
-
 | Used | For |
 | assert | Debug command to test a condition and do something if it is not true |
 | echo | Outputting a value to stdout |
@@ -46,4 +44,39 @@ Theses newline characters are sent as output by the PHP interpreter and could in
 | unset | Clears a variable |
 | list |Assigns multiple variables at one time from an array |
 
+## Comments
+There are three styles to mark comments:
 
+```php
+<?php
+# Perl style comments
+// C style comments
+/*
+ * Multiline comment 
+ */
+```
+
+## Representing Numbers
+There are four ways in which an integer may be expressed in php script:
+
+| Notation    | Example      | Note                           |
+|-------------|--------------|--------------------------------|
+| Decimal     | 1234         |                                |
+| Binary      | 0b1001110010 | Identified by leading 0b or 0B |
+| Octal       | 02322        | Identified by leading 0        |
+| Hexadecimal | 0x4D2        | Identified by leading 0x or 0X |
+
+Floating point numbers can be expressed either in standard decimal format or in exponential format.
+
+| Form        | Example          |
+|-------------|------------------|
+| Decimal     | 123.56           |
+| Exponential | 0.12e2 or 0.12E2 |
+
+## Variables
+PHP is a loosely typed language.
+
+PHP has three categories of variable:
+- scalars is one that can only hold one value at a time
+- composite can contain several values at a time
+- resources points to somethings not native to PHP like a handle provide by OS to a file or a database connection. These variables cannot be cast.
